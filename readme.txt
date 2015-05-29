@@ -17,12 +17,6 @@ Buyers tend to drop out of a cart is the check out process is too long. This nif
 In  this plugin user can customize the popup size, the title (heading), and the "agree" button lok and feel.
 Check out the tons of optiona in admin panel where user can configure plugin appearance.
 
-== Installation ==
-
-This plugin is made for woocommerce and keeps the all woocommerce standered. it is very easy to install either you can manually install this plugin or you can install this using the wordpress plugin installer.
-If you are new in wordpress then please go to the link how to install the wordpress plugin or how to managing the plugin link given below.
-Please follow the codex link https://codex.wordpress.org/Managing_Plugins.
-
 = Plugin Features =
 
 1. This plugin save the time and attention of user at checkout page.
@@ -36,6 +30,12 @@ Please follow the codex link https://codex.wordpress.org/Managing_Plugins.
 *   Wordpress 3.8.1 or later
 *   Woocommerce 2.0 or greater
 
+== Installation ==
+
+This plugin is made for woocommerce and keeps the all woocommerce standered. it is very easy to install either you can manually install this plugin or you can install this using the wordpress plugin installer.
+If you are new in wordpress then please go to the link how to install the wordpress plugin or how to managing the plugin link given below.
+Please follow the codex link https://codex.wordpress.org/Managing_Plugins.
+
 == Frequently Asked Questions ==
 
 = Is this plugin free ?
@@ -46,7 +46,6 @@ Ans : Yes, it is fully compatible with latest Wordpress and latest WooCommerce.
 
 = What do we require for installing this plugin ?
 Ans : You should have greater than woocommerce 2.0.
- 
 
 == Screenshots ==
 
