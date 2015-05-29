@@ -38,14 +38,14 @@ Please follow the codex link https://codex.wordpress.org/Managing_Plugins.
 
 == Frequently Asked Questions ==
 
-= Is this plugin free ?
-Ans : Yes, it is fully free plugin.
+= Is this plugin free ? =
+Yes, it is fully free plugin.
 
-= Is this compatible with latest Wordpress WooCommerce version ?
-Ans : Yes, it is fully compatible with latest Wordpress and latest WooCommerce.
+= Is this compatible with latest Wordpress WooCommerce version ? =
+Yes, it is fully compatible with latest Wordpress and latest WooCommerce.
 
-= What do we require for installing this plugin ?
-Ans : You should have greater than woocommerce 2.0.
+= What do we require for installing this plugin ? =
+You should have greater than woocommerce 2.0.
 
 == Screenshots ==
 
