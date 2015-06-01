@@ -62,7 +62,7 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 	}
 	
 	function add_pop_up() {
-		global $DC_Checkout_Terms_Conditions_Popup;				
+		global $DC_Checkout_Terms_Conditions_Popup, $woocommerce, $post ;				
 		
 		if ( wc_get_page_id( 'terms' ) > 0 && apply_filters( 'woocommerce_checkout_show_terms', true ) ) { 
 			$pre_text = $this->terms_conditions_popup_pre_text;
@@ -73,7 +73,7 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 			if($link_text == "") {
 				$link_text = "Terms & Conditions";					
 			}
-			$line = $pre_text."  <a class='fancybox' href='#checkoutpopupform' title=''>".$link_text."</a>  "; 
+			$line = $pre_text."  <a class='simple_popup_show' href='#' title=''>".$link_text."</a>  "; 
 			
 			$pop_up_button_text = "Agree";
 			$pop_up_width = "80%";
@@ -96,22 +96,25 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 			?>
 			
 			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-			<link rel="stylesheet" type="text/css" href="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/css/jquery.fancybox.css" media="screen" />
+			<link rel="stylesheet" type="text/css" href="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/css/popup.css" media="screen" />
 			 
-			<?php if($settings['load_js_lib'] == "Enable") {?>
-			<script src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/jquery-1.10.2.min.js"></script>
+			<?php if(isset($settings['load_js_lib']) && $settings['load_js_lib'] == "Enable") {?>
+			<script src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/jquery-1.11.js"></script>
 			<?php }?>
-			<script type="text/javascript" src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/jquery.fancybox.pack.js"></script>
+			<script type="text/javascript" src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/simplepopup.js"></script>
 			
 			<script type="text/javascript" >				
 			jQuery(document).ready(function($) {
 				$( window ).bind( 'updated_checkout', function() {
 					$(".form-row").find(".terms > label").html("<?php echo $line; ?>");	
-					jQuery('.fancybox').fancybox();	
+					 $('.simple_popup_show').click(function(){
+					 		 $('#checkoutpopupform').simplepopup();
+					 });					
 					<?php if($this->terms_conditions_popup_agree_enable == "yes") { ?>	
 					$("#checkoutpopupform_close").click(function(){
-						$('input#terms').prop('checked', true);	
-						$.fancybox.close()
+						$('input#terms').prop('checked', true);
+						history.pushState('data', '', '<?php echo $woocommerce->cart->get_checkout_url() ?>');
+						
 					});	
 					<?php }?>
 					
@@ -143,7 +146,7 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 			</style>
 			
 			
-			<div id="checkoutpopupform"  style="display:none; width:<?php echo $pop_up_width; ?>; height:<?php echo $pop_up_height; ?>;" >
+			<div id="checkoutpopupform" class="simplepopup"  >
 				<div class="modal-header">
 					
 					<h3><?php if($this->terms_conditions_popup_heading == ''){ echo get_post_field('post_title',$woocommerce_terms_page_id); } else { echo $this->terms_conditions_popup_heading;} ?></h3>
@@ -158,10 +161,13 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 				</div>	
 				<?php if($this->terms_conditions_popup_agree_enable == "yes") { ?>
 				<div class="modal-footer">	
-					<a id="checkoutpopupform_close" class="mypopupbuttonclass" style="float:left; text-align:center; cursor:pointer"><?php echo $pop_up_button_text; ?></a>								
+					<a id="checkoutpopupform_close" class="mypopupbuttonclass simplepopupClose" style="float:left; text-align:center; cursor:pointer"><?php echo $pop_up_button_text; ?></a>								
 				</div>	
 				<?php }?>				
 			</div>
+			
+			
+			
 			
 			<?php
 		}
