@@ -35,6 +35,7 @@ We are adding new features as you are reading. So If your required feature is cu
 * Woocommerce 2.0+
 * Wordpress 3.8.1+
 * The theme should be woocommerce standards compliant.
+* Multilingual Support is included with the plugin and is fully compatible with WPML.
 
 = Configurable =
 This plugin is highly configurable, with options to customize almost every feature you may think of. if you have any suggestion regarding the plugin improvement then feel free contact to our website http://www.dualcube.com.
