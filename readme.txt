@@ -1,4 +1,4 @@
-===  Woocommerce Checkout Terms Conditions Popup ===
+===  WooCommerce Checkout Terms Conditions Popup ===
 Contributors: dualcube,prabhakarkumarshaw
 Tags: woocommerce terms popup, woocommerce, woocommerce terms, woocommerce conditions, woocommerce checkout terms and conditions popup, terms and conditions popup
 Donate link: http://dualcube.com/
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This plugin save the time and attention of user who don't want to go any where for reading terms conditions.
 
 == Description ==
-Woocommerce Terms and conditions popup save the time and attention of user who don't want to go any where for reading terms and conditions.
+WooCommerce Checkout Terms Conditions Popup save the time and attention of user who don't want to go any where for reading terms and conditions.
 In  this plugin user can customize the popup size, change the title (heading), they can make the agreed button as they want.
 There are lot's of option in admin panel. where user can configure plugin appearance
 
@@ -32,9 +32,9 @@ Following is a non comprehensive list of features:
 We are adding new features as you are reading. So If your required feature is currently not available in this plugin, feel free to put up a request in the support forum for this plugin or revisit the page after a few weeks.
 
 = Compatibility =
-* Woocommerce 2.0+
-* Wordpress 3.8.1+
-* The theme should be woocommerce standards compliant.
+* WooCommerce 2.0+
+* WordPress 3.8.1+
+* The theme should be WooCommerce standards compliant.
 * Multilingual Support is included with the plugin and is fully compatible with WPML.
 
 = Configurable =
@@ -47,50 +47,49 @@ It is extremely disheartening when trigger happy users downrate a plugin for no 
  
 
 == Installation ==
-1. Upload the `Woocommerce Checkout Terms Conditions Popup` folder to the `/wp-content/plugins/` directory OR search for "Woocommerce Checkout Terms Conditions Popup" from your Wordpress admin.
-2. Activate the plugin through the 'Plugins' menu in Wordpress.
-3. Configure the plugin settings through the "woocommerce->settings->Woocommerce Checkout Terms Conditions Popup" tab on your Wordpress admin panel.
+1. Upload the `WooCommerce Checkout Terms Conditions Popup` folder to the `/wp-content/plugins/` directory OR search for "WooCommerce Checkout Terms Conditions Popup" from your WordPress admin.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Configure the plugin settings through the "WooCommerce->settings->WooCommerce Checkout Terms Conditions Popup" tab on your WordPress admin panel.
 4. Now click on the settings link and configure the plugin as per your requirement.
 
-This plug-in is created for woo-commerce, so you must have to woo-commerce is installed in your word-press website . 
-if your word-press website haven't woo-commerce installed then first install woo-commerce plug-in please follow the link of woo-commerce plug-in https://wordpress.org/plugins/woocommerce/. If you are new in word-press and don't know to how to install a word-press plug-in then follow the link https://codex.wordpress.org/Managing_Plugins. 
-You can  find how to install word-press plug-in. For this plug-in install you can also follow the same link.
-Woocommerce Checkout Terms Conditions Popup maintain the standardization of woo themes. There are we are working on the slandered hooks and filter for the given functionality. 
+This plugin is created for WooCommerce, so you must have to WooCommerce is installed in your WordPress website . 
+if your WordPress website haven't WooCommerce installed then first install WooCommerce plugin please follow the link of WooCommerce plugin https://wordpress.org/plugins/woocommerce/. If you are new in WordPress and don't know to how to install a WordPress plugin then follow the link https://codex.wordpress.org/Managing_Plugins. 
+You can  find how to install WordPress plugin. For this plugin install you can also follow the same link.
+WooCommerce Checkout Terms Conditions Popup maintain the standardization of woo themes. There are we are working on the slandered hooks and filter for the given functionality. 
 
 
 == Frequently Asked Questions ==
 = Q1 : Is this plugin is free ? =
 
-Ans : Yes it is fully free plugin.
+Ans : Yes, it is fully free plugin.
 
-= Q2 : Is this compatible with latest wordpress woocommerce installation ? =
+= Q2 : Is this compatible with latest WordPress WooCommerce installation ? =
 
-Ans : Yes it is fully compatible with latest wordpress and latest woocommerce.
+Ans : Yes, it is fully compatible with latest WordPress and latest WooCommerce.
 
 = Q3 What we require for install this plugin ? =
 
-Ans : You have to require the woocommerce >= 2.0.
+Ans : You, have to require the WooCommerce >= 2.0.
  
 
 == Screenshots ==
-1. admin setting panel 1
-2. admin setting panel 2
+1. Admin setting panel 1
+2. Admin setting panel 2
 3. Frontend screenshot 1
 4. Frontend pop up 1
 5. Frontend pop up 2
 6. Frontend popup 3
 
-== Changelog ==
 
+== Changelog ==
 = 1.0.1 =
 *  Fixed some jquery issue.
 
 = 1.0.0 =
 *  Initial version release.
 
+
 == Upgrade Notice ==
-
-
 = 1.0.1 =
 *  Fixed some jquery issue.
 
