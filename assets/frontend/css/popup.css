@@ -1,0 +1,28 @@
+.simplepopup {
+display:none;
+position:fixed;
+border:4px solid #808080;
+background:#fff;
+z-index:99999999999;
+padding:12px;
+width:70%;
+min-width:70%;
+}
+
+.simplepopupClose {
+float:right;
+cursor:pointer;
+margin-left:10px;
+margin-bottom:10px;
+}
+
+.simplepopupBackground {
+display:none;
+background:#000;
+position:fixed;
+height:100%;
+width:100%;
+top:0;
+left:0;
+z-index:1;
+}
