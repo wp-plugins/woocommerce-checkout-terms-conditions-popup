@@ -4,7 +4,7 @@ Plugin Name: Woocommerce Checkout Terms Conditions Popup
 Plugin URI: http://dualcube.com
 Description: This is a woocommerce plugin which show the terms and conditions in popup in checkout page, Here admin can change the text of Terms and conditions as well as link text. admin can also configure the size of popup and text of popup button. Popup will be fully responsive in any device. 
 Author: Prabhakar Kumar Shaw, dualcube
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://dualcube.com
 */
 

@@ -4,7 +4,7 @@ Tags: woocommerce terms popup, woocommerce, woocommerce terms, woocommerce condi
 Donate link: http://dualcube.com/
 Requires at least: 3.8.1
 Tested up to: 4.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,13 +49,14 @@ It is extremely disheartening when trigger happy users downrate a plugin for no 
 == Installation ==
 1. Upload the `WooCommerce Checkout Terms Conditions Popup` folder to the `/wp-content/plugins/` directory OR search for "WooCommerce Checkout Terms Conditions Popup" from your WordPress admin.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Configure the plugin settings through the "WooCommerce->settings->WooCommerce Checkout Terms Conditions Popup" tab on your WordPress admin panel.
-4. Now click on the settings link and configure the plugin as per your requirement.
+3. Create a terms and conditions page, if you haven't any terms and conditions page.
+4. Now go to the WooCommerce->Settings->Checkout section and choose Terms and Conditions page from the dropdown. 
+5. Configure the plugin settings through the "WooCommerce->settings->WooCommerce Checkout Terms Conditions Popup" tab on your WordPress admin panel.
+6. Now click on the settings link and configure the plugin as per your requirement.
 
-This plugin is created for WooCommerce, so you must have to WooCommerce is installed in your WordPress website . 
-if your WordPress website haven't WooCommerce installed then first install WooCommerce plugin please follow the link of WooCommerce plugin https://wordpress.org/plugins/woocommerce/. If you are new in WordPress and don't know to how to install a WordPress plugin then follow the link https://codex.wordpress.org/Managing_Plugins. 
+This plugin is created for WooCommerce, so you must have to WooCommerce is installed in your WordPress website. If your WordPress website haven't WooCommerce installed then first install WooCommerce plugin. Please follow the link of WooCommerce plugin https://wordpress.org/plugins/woocommerce/. If you are new in WordPress and don't know to how to install a WordPress plugin then follow the link https://codex.wordpress.org/Managing_Plugins. 
 You can  find how to install WordPress plugin. For this plugin install you can also follow the same link.
-WooCommerce Checkout Terms Conditions Popup maintain the standardization of woo themes. There are we are working on the slandered hooks and filter for the given functionality. 
+WooCommerce Checkout Terms Conditions Popup maintain the standardization of woo themes. There are we are working on the slandered hooks and filter for the given functionality.
 
 
 == Frequently Asked Questions ==
